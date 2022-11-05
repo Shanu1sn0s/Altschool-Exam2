@@ -1,0 +1,45 @@
+:root{
+  --buttons-add:#1a5c1d;
+  --buttons-add-bg:#e2f8e3;
+  --buttons-sub:#6c0e0e;
+  --buttons-sub-bg:#fde7e7;
+  --reset:#000;
+  --reset-bg:#fff;
+}
+button{
+  width: 50px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 1em;
+  border: none;border-radius: 8px;
+
+  
+}
+.add{
+color: var(--buttons-add);
+background-color: var(--buttons-add-bg);
+border: 1px solid var(--buttons-add) ;
+}
+.add:hover, .reset:hover, .sub:hover{
+  color:white ;
+  background-color:black;
+}
+.sub{
+  color: var(--buttons-sub);
+  background-color: var(--buttons-sub-bg);
+  border: 1px solid var(--buttons-sub) ;
+}
+.reset{
+  color: var(--reset);
+background-color: var(--reset-bg);
+border: 1px solid var(--reset) ;
+
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 1rem auto;
+  gap: 1rem;
+}

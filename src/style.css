@@ -97,6 +97,62 @@ input {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 80px;
 }
+.box{
+  position: relative;
+  top:300%;
+  width: 400px;
+  height: 50px;
+  background-color:white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.box::after{
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(transparent,
+  transparent, transparent,#6c0e0e);
+  animation: animate 4s linear infinite;
+  animation-delay: -2s;
+}
+.box span{
+  position: absolute;
+  inset: 5px;
+  background-color:white;
+  border-radius: 16px;
+  z-index: 1;
+
+}
+.box h3{
+  color:black;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 15px;
+}
+.box::before{
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(transparent,
+  transparent, transparent, black);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
 
 h1,
 p {

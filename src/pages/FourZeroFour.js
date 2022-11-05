@@ -14,7 +14,7 @@ const ErrorPage = () =>{
       <div className = 'links'> 
        <Link to= '/'  className='link'>Back</Link>
       </div>
-      <h1 className = 'container wrapper four' >404 </h1>
+      <h1 className = 'container wrapper four' >4041 </h1>
       
     </div>
   )

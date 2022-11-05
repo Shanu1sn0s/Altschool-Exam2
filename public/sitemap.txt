@@ -1,0 +1,4 @@
+https://inquisitive-melba-ec7022.netlify.app
+https://inquisitive-melba-ec7022.netlify.app/404
+https://inquisitive-melba-ec7022.netlify.app/counter
+https://inquisitive-melba-ec7022.netlify.app/use+reducer

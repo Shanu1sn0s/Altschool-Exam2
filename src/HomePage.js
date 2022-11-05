@@ -7,6 +7,7 @@ const Home = () => {
   return(
     
     <div className = 'container'>
+      <meta name="google-site-verification" content="oQ9np_-E_dicwRgtNY83oxo5THCCOYgbUeqy-0_adjI" />
       <Helmet>
       <title>Home</title>
       <meta name='description' content='Counter home page with access to 404page, error page, usereducer counter and custom counter page'/>

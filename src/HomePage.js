@@ -1,9 +1,17 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import {Helmet} from 'react-helmet-async'
 
 const Home = () => {
+
   return(
+    
     <div className = 'container'>
+      <Helmet>
+      <title>Home</title>
+      <meta name='description' content='Counter home page with access to 404page, error page, usereducer counter and custom counter page'/>
+      <link rel='canonical' href='/'/>
+    </Helmet>
         <h1>Home Page</h1>
        <h2>Alschool Examination</h2>
       <h5>Created by : Shanu Olayinka</h5>

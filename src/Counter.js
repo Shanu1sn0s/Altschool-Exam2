@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Count = () => {
+ 
   const [counter, useCounter] = useState(0);
 
   const increment = () => {
@@ -23,6 +25,11 @@ const Count = () => {
 
   return (
     <div>
+       <Helmet>
+    <title>Counter</title>
+    <meta name="description" content="Counter page " />
+    <link rel="canonical" href="/counter" />
+  </Helmet>;
       <div className="container">
         <Link to="/" className="link">
           Go back to Home page

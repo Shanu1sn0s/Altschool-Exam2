@@ -43,7 +43,6 @@ hr{
 }
 .link {
   display: flex;
-
   align-items: center;
   justify-content: center;
   text-decoration: none;
@@ -73,7 +72,7 @@ hr{
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 110px auto;
+  margin: 10px auto;
 }
 .wrapper {
   margin: 90px auto;

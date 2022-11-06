@@ -13,11 +13,13 @@ body {
 }
 .how-to {
   border: 1px;
-  max-width: 200px;
-  margin-top: 20px;
+  max-width: 400px;
+  margin-top: 40px;
+  text-align: start;
+  
 }
-.how-to > p {
-  margin: 12px auto;
+.how-to > p, li {
+  margin: 20px auto;
 }
 hr{
   color: #6c0e0e;

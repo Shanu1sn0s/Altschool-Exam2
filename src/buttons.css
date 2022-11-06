@@ -11,7 +11,7 @@ button{
   font-weight: bold;
   font-size: 15px;
   padding: 1em;
-  border: none;border-radius: 8px;
+  border: none;border-radius: 18px;
 
   
 }
@@ -23,6 +23,7 @@ border: 1px solid var(--buttons-add) ;
 .add:hover, .reset:hover, .sub:hover{
   color:white ;
   background-color:black;
+  border: none;
 }
 .sub{
   color: var(--buttons-sub);

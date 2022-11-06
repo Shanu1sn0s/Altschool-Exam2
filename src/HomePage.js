@@ -13,7 +13,7 @@ const Home = () => {
         />
         <link rel="canonical" href="/" />
       </Helmet>
-      <h1>Home Page</h1>
+      <h1 className = 'home'>COUNT WITH EASE</h1>
       <h2>Alschool Examination</h2>
       <hr />
       <h5>Created by : Shanu Olayinka</h5>
@@ -40,7 +40,7 @@ const Home = () => {
         </div>
         <div className= 'box'>
           <span>
-            <h3>Thank you!!!</h3>
+            <h3>BEGIN YOU COUNTING JOURNEY </h3>
           </span>
         </div>
       </div>

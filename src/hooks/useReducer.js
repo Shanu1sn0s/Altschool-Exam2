@@ -32,7 +32,7 @@ const Reducer = () => {
         </Link>
       </div>
       <div>
-        <h1>This is the useReducer page</h1>
+        <h1 className = 'home'>useReducer</h1>
       </div>
       <div className="wrapper">
         <div className="count reducer">{count} </div>

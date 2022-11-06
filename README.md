@@ -1,3 +1,15 @@
-# react-fdhvq9
+# ALTSCHOOL AFRICA (SECOND EXAMINATION)
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-fdhvq9)
+LINK TO HOSTED SITE :https://inquisitive-melba-ec7022.netlify.app/ ;
+
+EXAM QUESTION: QUESTION NUMBER TWO (COUNTER)
+
+ THIS SITE SITE INCLUDES:
+1. 404 PAGE
+2. ERROR BOUNDARY
+3. A CUSTOM COUNTER
+4. USEREDUCER COUNTER
+5. SEO tested (80%)
+
+
+

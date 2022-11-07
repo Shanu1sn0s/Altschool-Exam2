@@ -38,9 +38,9 @@ const Home = () => {
             Custom Counter Page
           </Link>
         </div>
-        <div className= 'box'>
+      <div className= 'box'>
           <span>
-            <h3>BEGIN YOU COUNTING JOURNEY </h3>
+            <h3>BEGIN YOUR COUNTING JOURNEY </h3>
           </span>
         </div>
       </div>
